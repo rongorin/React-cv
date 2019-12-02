@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.main-header {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url("C:\Users\Ronald\React projects\react-cv\src\images\Header Background.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.navbar-list a.chosen, 
+.navbar-list a:hover { 
+
+  border-bottom: 1px solid #F14B31;
+
 }
